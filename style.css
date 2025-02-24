@@ -1,0 +1,69 @@
+:root{
+    --color-corp: #205AA0;
+    --shadow: inset 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+.text-corp{
+    color: var(--color-corp);
+}
+.shadow-inner{
+    box-shadow: var(--shadow);
+}
+
+
+
+/* main styles*/
+body{
+    background-color: #F5F5F5;
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+header{
+    background-color: white;
+    border-radius: 0 0 56px 56px;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.nav-link{
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
+}
+.border-bottom-corp{
+    border-bottom: 3px solid #FFD173;
+}
+.globus-icon{
+    padding: 5px 6px;
+    border-radius: 50%;
+    background: var(--color-corp);
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    background-image: url('icons/burger.svg');
+}
+
+
+/*breackpoints*/
+
+@media (max-width: 1200px){
+    .border-bottom-corp{
+        border: unset;
+    }
+}
+@media (max-width: 990px){
+    .logo{
+        width: 100px;
+    }
+    header{
+        border-radius: 0 0 40px 40px;
+    }
+}
+@media (max-width: 576px){
+    header{
+        border-radius: 0 0 30px 30px;
+    }
+    .logo{
+        width: 80px;
+    }
+}
