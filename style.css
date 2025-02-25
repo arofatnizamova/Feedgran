@@ -9,8 +9,12 @@
 .shadow-inner{
     box-shadow: var(--shadow);
 }
-
-
+.fs-title{
+    font-size: clamp(1.375rem, 1.05rem + 1.625vw, 3rem);
+}
+.fs-paragraph{
+    font-size: clamp(1rem, 0.875rem + 0.625vw, 1.625rem);
+}
 
 /* main styles*/
 body{
@@ -42,8 +46,31 @@ header{
 .navbar-toggler-icon{
     background-image: url('icons/burger.svg');
 }
-
-
+.btn-corp{
+    text-transform: uppercase;
+    color: white;
+    padding: 5px 25px;
+    background-color: var(--color-corp);
+    border-radius: 21px;
+    width: fit-content;
+    font-weight: 600;
+    font-size: clamp(1.125rem, 1.1rem + 0.125vw, 1.25rem);
+}
+.slider-btn-custom {
+    color: var(--color-corp);
+    padding: 5px 12px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+}
+.btn-box-banner{
+    position: absolute;
+    z-index: 2;
+    margin-top: -100px;
+    left: 55%;
+    bottom: 15%;
+    width: fit-content;
+}
 /*breackpoints*/
 
 @media (max-width: 1200px){
