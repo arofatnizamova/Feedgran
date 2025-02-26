@@ -26,6 +26,9 @@ a{
 .fs-paragraph{
     font-size: clamp(1rem, 0.875rem + 0.625vw, 1.625rem);
 }
+.fs-paragraph-2{
+    font-size: clamp(1.125rem, 1.075rem + 0.25vw, 1.375rem);
+}
 .fs-span{
     font-size: clamp(1rem, 0.925rem + 0.375vw, 1.375rem);
 }
@@ -44,6 +47,9 @@ a{
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.text-balance{
+    text-wrap: balance;
 }
 /* main styles*/
 body{
@@ -125,6 +131,9 @@ header{
 }
 .news-info-box{
     margin-top: -70px;
+}
+.footer-logo {
+    max-width: 179px;
 }
 /*breackpoints*/
 
