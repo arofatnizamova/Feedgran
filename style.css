@@ -2,8 +2,12 @@
     --color-corp: #205AA0;
     --color-yellow: #FFD173;
     --shadow: inset 0 4px 15px 0 rgba(0, 0, 0, 0.25);
+    --linear-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 26.4%, #fff 100%);
 }
-
+a{
+    color: inherit;
+    text-decoration: none;
+}
 .text-corp{
     color: var(--color-corp);
 }
@@ -25,8 +29,21 @@
 .fs-span{
     font-size: clamp(1rem, 0.925rem + 0.375vw, 1.375rem);
 }
+.fs-span-2{
+    font-size: 14px;
+}
 .w-fit-content{
     width: fit-content;
+}
+.bg-white-gradient{
+    background: var(--linear-gradient);
+}
+.two-line{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 /* main styles*/
 body{
@@ -105,6 +122,9 @@ header{
 }
 .number{
     font-size: clamp(1.125rem, 0.875rem + 1.25vw, 2.375rem);
+}
+.news-info-box{
+    margin-top: -70px;
 }
 /*breackpoints*/
 
