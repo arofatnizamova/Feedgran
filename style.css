@@ -1,10 +1,14 @@
 :root{
     --color-corp: #205AA0;
+    --color-yellow: #FFD173;
     --shadow: inset 0 4px 15px 0 rgba(0, 0, 0, 0.25);
 }
 
 .text-corp{
     color: var(--color-corp);
+}
+.text-yellow{
+    color: var(--color-yellow);
 }
 .shadow-inner{
     box-shadow: var(--shadow);
@@ -17,6 +21,9 @@
 }
 .fs-paragraph{
     font-size: clamp(1rem, 0.875rem + 0.625vw, 1.625rem);
+}
+.fs-span{
+    font-size: clamp(1rem, 0.925rem + 0.375vw, 1.375rem);
 }
 .w-fit-content{
     width: fit-content;
@@ -95,6 +102,9 @@ header{
     left: 50%;
     bottom: -25%;
     transform: translateX(-50%);
+}
+.number{
+    font-size: clamp(1.125rem, 0.875rem + 1.25vw, 2.375rem);
 }
 /*breackpoints*/
 
