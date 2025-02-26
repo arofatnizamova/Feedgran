@@ -88,6 +88,14 @@ header{
     left: 52%;
     /* bottom: 5%; */
 }
+.icons-image-h{
+    height: 165px;
+}
+.slider-btn-box-3{
+    left: 50%;
+    bottom: -25%;
+    transform: translateX(-50%);
+}
 /*breackpoints*/
 
 @media (max-width: 1200px){
