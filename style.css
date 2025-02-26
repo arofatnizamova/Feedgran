@@ -12,10 +12,15 @@
 .fs-title{
     font-size: clamp(1.375rem, 1.05rem + 1.625vw, 3rem);
 }
+.fs-title-2{
+    font-size: clamp(1.375rem, 1.15rem + 1.125vw, 2.5rem);
+}
 .fs-paragraph{
     font-size: clamp(1rem, 0.875rem + 0.625vw, 1.625rem);
 }
-
+.w-fit-content{
+    width: fit-content;
+}
 /* main styles*/
 body{
     background-color: #F5F5F5;
@@ -71,6 +76,18 @@ header{
     bottom: 15%;
     width: fit-content;
 }
+.btn-yellow{
+    background-color: #FFD173;
+}
+.info-box{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slider-btn-box-2{
+    left: 52%;
+    /* bottom: 5%; */
+}
 /*breackpoints*/
 
 @media (max-width: 1200px){
@@ -84,6 +101,10 @@ header{
     }
     header{
         border-radius: 0 0 40px 40px;
+    }
+    .slider-btn-box-2{
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 @media (max-width: 576px){
