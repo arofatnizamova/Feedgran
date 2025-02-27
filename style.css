@@ -152,6 +152,11 @@ header{
     right: 1%;
     top: -12%;
 }
+.about-section{
+    background: url('images/eggs/bg.png') no-repeat center / cover;
+    height: 600px;
+    width: 100%;
+}
 /*breackpoints*/
 
 @media (max-width: 1200px){
