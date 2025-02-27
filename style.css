@@ -141,6 +141,10 @@ header{
 .footer-logo {
     max-width: 179px;
 }
+.slider-btn-box-4{
+    right: 1%;
+    top: -12%;
+}
 /*breackpoints*/
 
 @media (max-width: 1200px){
@@ -159,6 +163,13 @@ header{
         left: 50%;
         transform: translateX(-50%);
     }
+    .slider-btn-box-4{
+        right: unset;
+        top: unset;
+        bottom: -5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 @media (max-width: 576px){
     header{
@@ -166,5 +177,8 @@ header{
     }
     .logo{
         width: 80px;
+    }
+    .h-sm-300{
+        height: 300px;
     }
 }
