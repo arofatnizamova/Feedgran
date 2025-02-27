@@ -1,6 +1,7 @@
 :root{
     --color-corp: #205AA0;
     --color-yellow: #FFD173;
+    --color-green: #009D34;
     --shadow: inset 0 4px 15px 0 rgba(0, 0, 0, 0.25);
     --linear-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 26.4%, #fff 100%);
 }
@@ -13,6 +14,9 @@ a{
 }
 .text-yellow{
     color: var(--color-yellow);
+}
+.text-green{
+    color: var(--color-green);
 }
 .shadow-inner{
     box-shadow: var(--shadow);
@@ -114,6 +118,9 @@ header{
 }
 .btn-yellow{
     background-color: #FFD173;
+}
+.btn-green{
+    background-color: var(--color-green);
 }
 .info-box{
     top: 50%;
