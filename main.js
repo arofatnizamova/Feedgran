@@ -19,7 +19,33 @@ $(document).ready(function () {
           
   ] 
       }
-    } 
+    } else if (slider.hasClass('items')){
+      extraOptions = {
+        slidesToShow: 3,
+          slidesToScroll: 1,
+          centerMode: false,
+          arrows: false,
+          autoPlay: true,
+          dots: false,
+          responsive: [
+            {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          arrows: true,
+        }
+            },
+            {
+        breakpoint: 990,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: true,
+        }
+            },
+    ] 
+    }}
     slider.slick($.extend({}, extraOptions, options ));
   })
 })

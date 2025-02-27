@@ -157,11 +157,30 @@ header{
     height: 600px;
     width: 100%;
 }
+.text-bg{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bg-item{
+    right: 0;
+}
+.icons-image-h-2{
+    height: 90px;
+}
+.slider-btn-box-5{
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15%;
+}
 /*breackpoints*/
 
 @media (max-width: 1200px){
     .border-bottom-corp{
         border: unset;
+    }
+    .bg-item {
+        right: -20%;
     }
 }
 @media (max-width: 990px){
@@ -182,6 +201,9 @@ header{
         left: 50%;
         transform: translateX(-50%);
     }
+    .bg-item {
+        right: 0;
+    }
 }
 @media (max-width: 576px){
     header{
@@ -192,5 +214,11 @@ header{
     }
     .h-sm-300{
         height: 300px;
+    }
+    .mb-custom{
+        margin-bottom: 200px;
+    }
+    .icons-image-h-2{
+        height: 80px;
     }
 }
