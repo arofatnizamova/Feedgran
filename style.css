@@ -48,6 +48,9 @@ a{
 .h-fit-content{
     height: fit-content;
 }
+.bg-corp{
+    background: var(--color-corp);
+}
 .bg-white-gradient{
     background: var(--linear-gradient);
 }
@@ -173,6 +176,10 @@ header{
     transform: translateX(-50%);
     bottom: -15%;
 }
+.slider-btn-box-7{
+    right: 5%;
+    top: -30%;
+}
 .icons-bg{
     margin-bottom: -60px;
     position: relative;
@@ -211,6 +218,48 @@ header{
     transform: translateX(-50%);
     bottom: 0;
     bottom: -8%;
+}
+.form-bg{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.form-control{
+    border: none;
+    border-radius: 0;
+    padding-left: 0;
+    padding-bottom: 13px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.70);
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: unset;
+}
+.form-control::placeholder{
+    opacity: 0.5;
+    font-size: 16px;
+}
+.form-check-input[type=checkbox] {
+    border-radius: 2px;
+}
+.form-check-input:checked {
+    background-color: transparent;
+    border-color: unset;
+}
+.form-check-input:checked[type=checkbox] {
+    --bs-form-check-bg-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m5 10 4 4 6-6'/%3e%3c/svg%3e");
+}
+.form-check-input:focus {
+    border-color: unset;
+    outline: 0;
+    box-shadow: none;
+}
+.rounded-section{
+    border-radius: 160px;
+    box-shadow: inset 11px 14px 29px 0 rgba(0, 0, 0, 0.25);
+}
+.partners .slider-item{
+    height: 170px;
 }
 /*breackpoints*/
 
@@ -262,5 +311,18 @@ header{
     }
     .slider-btn-box-6{
         bottom: -5%;
+    }
+    .slider-btn-box-7{
+        right: unset;
+        left: 50%;
+        top: unset;
+        bottom: -25%;
+        transform: translateX(-50%);
+    }
+    .custom-h-bg-img{
+        height: 492px;
+    }
+    .fs-span-2{
+        font-size: 14px;
     }
 }
